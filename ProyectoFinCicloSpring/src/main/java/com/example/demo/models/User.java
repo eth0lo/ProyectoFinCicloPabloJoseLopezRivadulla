@@ -10,6 +10,7 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
@@ -44,7 +45,7 @@ public class User {
 	private String birthdate;
 	
 	@OneToMany (mappedBy ="user")
-	@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"}) 
+	@JsonIgnore
 	public List<Comentario> comentario;
 	
 

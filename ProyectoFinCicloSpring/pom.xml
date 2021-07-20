@@ -9,11 +9,11 @@
 		<version>2.1.8.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bezkoder</groupId>
+	<groupId>com.example.demo</groupId>
 	<artifactId>spring-boot-security-jwt</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-security-jwt-React-PabloJoseLopezRivadulla</name>
-	<description>Demo project for Spring Boot Security - JWT</description>
+	<description>Proyecto Fin de ciclo</description>
 
 	<properties>
 		<java.version>1.8</java.version>
