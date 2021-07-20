@@ -1,0 +1,57 @@
+
+/*Le da tamaño al carrusel*/
+.carrusel {
+    
+    min-height: 100%;
+    min-width: 100%;
+}
+/*Coloca el carrusel en el centro*/
+.carousel-inner { 
+    text-align: center; 
+
+}
+
+
+/*Hace que las imagenes cubran todo su tamaño*/
+.item img {
+
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+
+
+}
+/*Coloca la imagen*/
+.carousel .item > img { 
+    display: inline-block; 
+}
+
+/*Le da color a las flechas*/
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100%;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+/*Le da estilo a las flecha derecha cuando le pasas el raton encima*/
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  font-weight: bold;
+  color: rgba(255, 255, 255);
+  font-weight: 900;
+  text-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+/*Le da estilo a las flecha izquierda cuando le pasas el raton encima*/
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: rgba(255, 255, 255);
+  font-weight: 900;
+  text-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+

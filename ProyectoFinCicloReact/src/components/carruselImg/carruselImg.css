@@ -1,0 +1,37 @@
+/*Le da tamaño al carrusel*/
+.carousel .item {
+
+    height:700px;
+    width: 700px;
+}
+/*Le da tamaño a la imagen*/
+.imagen {
+    
+    height: 400px;
+    width: 300px;
+    max-width: 100%;
+}
+
+/*Le da estilo al pie de la foto*/
+.piefoto{
+
+    
+    color: black;
+    font-size: 35px;
+    font-family: mont;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+a:hover{
+
+    text-decoration: none;
+
+}
+
+
+a:link {
+
+    text-decoration: none;
+
+}

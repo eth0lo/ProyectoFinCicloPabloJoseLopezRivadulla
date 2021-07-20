@@ -1,0 +1,29 @@
+.fotoUsuario{
+
+    width: 80%;
+    min-width:80%;
+    min-height: 100%;
+}
+
+.collapseResult{
+
+    font-size: 20px;
+}
+
+.iconoTwitter{
+
+    font-size: 24px;
+}
+
+.iconoDiscord{
+
+    font-size:24px;
+    color: navy;
+
+}
+
+.iconoTwitch{
+
+    font-size: 24px;
+    color: purple !important;
+}

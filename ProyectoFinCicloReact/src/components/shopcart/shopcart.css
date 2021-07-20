@@ -1,0 +1,37 @@
+
+.nombreProducto{
+
+    font-size: 30px;
+    font-family: mont;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.precio2{
+
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20%;
+    font-size: 30px;
+    font-family: mont;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+    
+
+
+.textocarrito{
+    margin-top: 10%;
+    font-size: 40px;
+
+    width:50%
+}
+
+.total {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-size: 34px;
+    font-family: mont;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}

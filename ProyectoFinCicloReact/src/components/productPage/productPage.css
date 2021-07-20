@@ -1,0 +1,42 @@
+
+
+.titulo {
+
+    font-size: 40px;
+
+}
+
+
+.textodescripcion{
+
+    margin-top: 25px;
+    font-size: 20px;
+
+}
+
+.price {
+
+    font-size: 30px;
+
+
+}
+
+.colocadorproducto{
+
+    margin-top: 4%;
+    margin-right: 10%; 
+
+}
+
+.collapsebody{
+
+    width: 100%;
+
+}
+
+.descripcionProducto{
+
+
+    background-color: black !important;
+
+}

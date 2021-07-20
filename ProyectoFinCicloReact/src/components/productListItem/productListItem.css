@@ -1,0 +1,48 @@
+.catalogo {
+
+    margin-top: 1%;
+    overflow: hidden;
+    transition: 1s;
+    border-radius: 10px;
+    max-width: 300px;
+    height: 400px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 200px;
+    padding: -30%;
+}
+
+
+.catalogo:hover{
+
+    transform: scale(1.05);
+
+}
+.nombretitulo {
+
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+
+
+
+.precio {
+
+    font-size: 15px;
+    width: 100px;
+}
+
+.linkproducto:hover{
+
+    text-decoration: none;
+
+}
+
+.linkproducto{
+
+    color: black !important;
+    font-family: montbold;
+}
+
+
+

@@ -1,0 +1,14 @@
+
+/*Le da ancho al subir imagen */
+.imagenUpload{
+
+    max-width:400px;
+
+}
+
+/*Coloca la segunda fila de añadir producto */
+.segundaFilaAddProduct{
+
+    margin-left: 30%;
+    margin-top: 2%;
+}

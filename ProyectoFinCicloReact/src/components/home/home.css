@@ -1,0 +1,22 @@
+.textohomeDescripcion{
+
+    margin-top: 3%;
+}
+
+
+.fotoBannerHome{
+
+    height: 80%;
+    width: 100%;
+    border-style: solid;
+    color:black
+}
+
+.mapaHomePage{
+
+    height: 500px;
+    width: 100%;
+    border-style: solid;
+    color:black
+
+}

@@ -1,0 +1,81 @@
+.imagenBanner{
+
+   border-style: solid;
+   border-color: black;
+   height: 500px;
+   width: 100%;
+   max-height: 100%;
+   max-width: 100%;
+
+}
+
+.collapseTitle{
+
+   font-size: 30px;
+   width: 100%;
+   background-color: black !important;
+}
+
+.collapsebodyTournament{
+
+   font-size: 20px;
+   background-color: rgba(153, 150, 150, 0.247)
+
+}
+
+.commentUsuario{
+
+   font-weight: bold;
+   font-size: 22px;
+}
+
+.commentFecha{
+
+   
+   color: rgba(0, 0, 0, 0.596);
+}
+
+.textoComentario{
+
+   font-size: 16px;
+}
+
+.filaComentarios{
+
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+}
+
+.botonEliminarTorneoPreppper{
+
+   display: flex;
+   align-self: center;
+   border-style: solid;
+   border-color: white;
+   margin-left: 2%;
+   width: 100%;
+   min-width: 10%;
+}
+
+@media screen and (max-width: 1000px) {
+
+.botonEliminarTorneoPreppper{
+
+   width: 150px;
+   margin-left: 0%;
+   min-width: fit-content;
+}
+
+@media screen and (max-width: 766px) {
+
+   .botonEliminarTorneoPreppper{
+   
+      width: 80px;
+      margin-left: 40%;
+      min-width: fit-content;
+   }
+
+}
+   
+}

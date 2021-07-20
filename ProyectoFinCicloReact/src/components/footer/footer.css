@@ -1,0 +1,30 @@
+footer {
+    background-color: #282c34 !important;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+  }
+
+footer p{
+
+    font-size: 35px;
+    color: white !important;
+    
+}
+
+footer a:visited, footer  a:active,footer a:hover, footer  a {
+  text-decoration:none;
+  color: rgba(255, 255, 255, 0.7);
+
+}
+
+.contenedor {
+
+  width: 30%;
+
+}
+

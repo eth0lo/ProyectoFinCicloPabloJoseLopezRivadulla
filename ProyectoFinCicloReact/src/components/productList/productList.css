@@ -1,0 +1,54 @@
+.busqueda{
+
+    margin-top: 10%;
+    font-size: 40px;
+}
+
+.mostrador {
+
+    font-size: 30px;
+    margin: 1%
+}
+
+.separadorcatalogo{
+
+    width: calc(20.0% - 10px);
+}
+
+.filaProductos{
+
+
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+
+
+@media screen and (max-width: 1189px) {
+    .filaProductos{
+
+        margin-left: 2%;
+    }
+
+}
+
+
+@media screen and (max-width: 1130px) {
+    .filaProductos{
+
+        margin-left: 1px;
+    }
+    
+   
+
+}
+
+@media screen and (max-width: 1130px) {
+    .filaProductos{
+
+        margin-left: 1px;
+    }
+    
+   
+
+}
